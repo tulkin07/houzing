@@ -4,7 +4,8 @@ import { Container } from './style'
 export default function Home() {
   return (
     <Container>
-        Home
+        Home 
+        <p>test</p>
     </Container>
   )
 }
