@@ -7,7 +7,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
+a{
+  color: inherit;
+  text-decoration: none;
+}
 :root{
   --colorPrimary:#0D263B;
   --colorSecondary:#696969;
