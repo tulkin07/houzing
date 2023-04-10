@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Getting Started with Akhmadov Tulkin
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is available on github [Houzing](https://github.com/tulkin07/houzing).
+# can see the DEMO [Houzing](https://netlify.com/hub-houzing)
 
 ## Available Scripts
 
