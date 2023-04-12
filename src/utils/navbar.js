@@ -18,5 +18,22 @@ export const navbar = [
         privite:false,
         hidden:false,
         element:<PropertiesPage/>
+    },
+    {
+        id: useId,
+        title:"Sign in",
+        path:"/signin",
+        privite:false,
+        hidden:true,
+        element:<h1>Sign in</h1>
+    }
+    ,
+    {
+        id: useId,
+        title:"Sign up",
+        path:"/signup",
+        privite:false,
+        hidden:true,
+        element:<h1>Sign up</h1>
     }
 ]
