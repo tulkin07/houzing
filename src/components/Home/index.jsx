@@ -5,8 +5,6 @@ import { Input } from '../Generic'
 export default function Home() {
   return (
     <Container>
-        Home 
-        <Input placeholder="test"/>
     </Container>
   )
 }
