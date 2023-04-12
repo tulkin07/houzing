@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import {ReactComponent as home} from '../../assets/icons/home.svg'
-import {ReactComponent as filter} from '../../assets/icons/filter.svg'
-import {ReactComponent as search} from '../../assets/icons/search.svg'
+import { ReactComponent as home } from '../../assets/icons/home.svg'
+import { ReactComponent as filter } from '../../assets/icons/filter.svg'
+import { ReactComponent as search } from '../../assets/icons/search.svg'
 const Container = styled.div`
    display: flex;
    align-items: center;
@@ -18,7 +18,7 @@ export const Wrapper = styled.div`
    position: relative;
    width: 100%;
 `
-export const Icon  =styled.div`
+export const Icon = styled.div`
  
 `
 Icon.Home = styled(home)`

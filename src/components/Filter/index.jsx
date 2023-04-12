@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Container, Icon, Wrapper, Menu, Row } from './style'
 import { Button, Input } from '../Generic'
 import { Dropdown } from 'antd'
 
 export default function Filter() {
+  const [open,setOpen]= useState(false)
   const items = [
     {
       key: '1',
@@ -38,13 +39,14 @@ export default function Filter() {
         <Input icon="true" placeholder="Enter an address, neighborhood, city, or ZIP code" />
       </Wrapper>
 
-      <Dropdown
+      <Dropdown onClick={(e) => e.preventDefault()}
+        open={open}
         menu={{ items, }} placement="bottomRight"
         arrow={{
           pointAtCenter: true,
         }}
       >
-        <Button type="light"> <Icon.Filter /> Advanced</Button>
+        <Button onClick={()=>setOpen(!open)} type="light"> <Icon.Filter /> Advanced</Button>
       </Dropdown>
       <Button type="primary"> <Icon.Search /> Search</Button>
     </Container>
