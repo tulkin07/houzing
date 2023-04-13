@@ -11,8 +11,6 @@ width: 380px;
 background: #FFFFFF;
 border: 1px solid #E6E9EC;
 border-radius: 3px;
-/* border: 1px solid red; */
-margin: 100PX;
 `
 Card.Header  = styled.img`
  width: 100%;
@@ -30,6 +28,7 @@ line-height: 24px;
 color: #0D263B;
 overflow: hidden;
 text-overflow: ellipsis;
+white-space: nowrap;
 `
 Card.SubTitle = styled.div`
  font-family: 'Montserrat';
@@ -40,6 +39,7 @@ line-height: 20px;
 color: #696969;
 overflow: hidden;
 text-overflow: ellipsis;
+white-space: nowrap;
 padding-top: 4px;
 `
 

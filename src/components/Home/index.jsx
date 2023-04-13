@@ -5,9 +5,12 @@ import HouseCard from '../HouseCard'
 
 export default function Home() {
   return (
-    <Container>
-     <Carousel/>
-     <HouseCard/>
-    </Container>
+    <>
+      <Carousel />
+      <Container>
+        <HouseCard />
+      </Container>
+    </>
+
   )
 }
